@@ -1,0 +1,207 @@
+/* 1 rem and 1em = 16px */
+/* 1350 divided by 16 = 84,375, so we round it thats how we got 84em */
+
+/* ----- below 1344 px (smaller desktops -----*/
+
+@media (max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+  }
+
+  .cta-text {
+    font-size: 4.4rem;
+    line-height: 7rem;
+    font-weight: 500;
+  }
+  .section-cta {
+    /* background-color: #00ff00; */
+    margin: auto;
+    max-width: 81%;
+    margin-top: 9.6rem;
+    margin-bottom: 9.6rem;
+  }
+
+  .cta-img {
+    width: 100%;
+    height: 50rem;
+    /* position: relative; */
+  }
+}
+
+/* ----- below 1200 px (landscape tablets -----*/
+
+@media (max-width: 75em) {
+  html {
+    /* 9px divided by 16 = 0.5625 */
+    font-size: 56.25%;
+  }
+
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+
+  .subheading {
+    font-size: 4.6rem;
+  }
+
+  .heading-mouse {
+    font-size: 4.2rem;
+  }
+
+  .header {
+    padding: 0 3.2rem;
+  }
+  .hero {
+    gap: 4.8rem;
+  }
+}
+
+.cta-text {
+  font-size: 4.4rem;
+  line-height: 7rem;
+  font-weight: 500;
+}
+.section-cta {
+  margin: auto;
+  max-width: 81%;
+  margin-top: 9.6rem;
+  margin-bottom: 9.6rem;
+}
+
+.cta-img {
+  width: 100%;
+  height: 50rem;
+  /* position: relative; */
+}
+
+/* 900 px */
+
+@media (max-width: 59em) {
+.cta-text {
+    font-size: 2.6rem;
+    line-height: 7rem;
+    font-weight: 500;
+  }
+
+  .section-cta {
+    margin: auto;
+    max-width: 92%;
+    margin-top: 9.6rem;
+    margin-bottom: 9.6rem;
+  }
+
+  .cta-img {
+    width: 100%;
+    height: 50rem;
+  }
+  .cta-form {
+    position: absolute;
+    padding-top: 30rem;
+    padding-left: 23rem;
+  }
+
+  .cta-form-input {
+    padding: rem 1rem 1rem 1rem;
+    display: flex;
+    width: 50rem;
+  }
+
+  .product-shop {
+    display: flex;
+    flex-direction: column;
+    gap: 3.4rem;
+  }
+  .list {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(22, 7, 36);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 4rem;
+    left: 100%;
+    transition: all 1s;
+    
+  }
+
+  #check {
+    display: none;
+  }
+
+  .checkBtn {
+    display: block;
+  }
+
+  #check:checked ~ ul {
+    left: 0%;
+  }
+}
+
+ /* 430 mobile  */
+
+ @media(max-width:27em ){
+
+  .btn--gameOn{
+    margin-bottom: 2.2rem;
+  }
+
+  .mouse{
+    display: inline-block;
+      }
+      .heading-mouse{
+        margin-top: 5.2rem;
+      }
+
+      .mouse-img{
+        margin-top: 5.4rem;
+      }
+
+      .cta-text{
+display: flex;
+        font-size: 1.2rem;
+        right: 19rem;
+        margin-bottom: 19rem;
+        line-height: 2.2rem;
+      }
+
+      .section-cta{
+        max-width: 100%;
+        margin-left: 2.4rem;
+      }
+
+     .cta-form{
+      display: inline;
+      right: 10px
+     }
+
+     .cta-form-input{
+     width: 30rem;
+    margin-right: 50px;
+     }
+
+     .cta-form-btn{
+      margin-right: 5rem;
+     }
+.reviews{
+  display: inline-block;
+  max-width: 50px;
+}
+
+.quote{
+  font-size: 1.2rem;
+  max-width: 50%;
+}
+
+    .footer{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+ }
+ 
+
+
+
+ 
